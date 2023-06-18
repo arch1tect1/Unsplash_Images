@@ -74,6 +74,8 @@ Unsplash is a website that provides a large collection of high-quality stock pho
 
 [Unsplash API](https://unsplash.com/developers)
 
+API KEY - FBk9kuxy12sUk-RzW4nJffRwYHnZ9pnenFMMrn1-zbg
+
 In order to use the Unsplash API to fetch images for your application, you will need to sign up for an account with Unsplash. This will allow you to obtain an API key that you can use to authenticate your requests.
 
 #### Find the API Key and Correct URL for Searching Images
@@ -129,11 +131,11 @@ Finally, you can add CSS to your application to style the components and provide
 #### Dark Theme Class - Code
 
 ```js
-const body = document.querySelector('body');
-body.classList.toggle('dark-theme', newDarkTheme);
+const body = document.querySelector("body");
+body.classList.toggle("dark-theme", newDarkTheme);
 
 // alternative setup
-document.body.classList.toggle('dark-theme', newDarkTheme);
+document.body.classList.toggle("dark-theme", newDarkTheme);
 ```
 
 const body = document.querySelector('body'); - This line selects the body element of the current document using the document.querySelector() method, which returns the first element that matches the specified selector. In this case, it is selecting the body element.
